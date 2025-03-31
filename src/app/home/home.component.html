@@ -1,1 +1,348 @@
-<p>home works!</p>
+<div class="ladingheader">
+    <a href="">Login</a>
+    <a href="">Sign Up</a>
+</div>
+<div class="row justify-content-center align-items-center vh-100 overflow-auto flex-wrap landing-bg">
+    <div class="container">
+        <div class="landing-wrapper">
+            <div class="landing-logo">
+                <img src="assets/img/logo-dark-xl.png" alt="img">
+            </div>
+            <div class="logo_search banner-form">
+                <p>What are you Looking for?</p>
+                <div class="banner-form">
+                    <form class="d-lg-flex" >
+                        <div class="form-item dropdown w-100">
+                            <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" role="menu">
+                                <label class="form-label fs-14 text-default mb-1">Select Loaction</label>
+                                <input type="text" class="form-control" value="Bangalore">
+                               
+                            </div>
+                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#nextinfo"><i class="isax isax-location-tick"></i></a>
+                            <div class="dropdown-menu dropdown-md p-0">
+                                <div class="input-search p-3 border-bottom">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search Location">
+                                     <span class="input-group-text px-2 border-start-0"><i class="isax isax-search-normal"></i></span> 
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="border-bottom">
+                                        <a class="dropdown-item" href="javascript:void(0);">
+                                            <h6 class="fs-16 fw-medium">Kerala </h6>
+                                        </a>
+                                    </li>
+                                    <li class="border-bottom">
+                                        <a class="dropdown-item" href="javascript:void(0);">
+                                            <h6 class="fs-16 fw-medium">Hampi</h6>
+                                        </a>
+                                    </li>
+                                    <li class="border-bottom">
+                                        <a class="dropdown-item" href="javascript:void(0);">
+                                            <h6 class="fs-16 fw-medium">Nainital</h6>
+                                        </a>
+                                    </li>
+                                    <li class="border-bottom">
+                                        <a class="dropdown-item" href="javascript:void(0);">
+                                            <h6 class="fs-16 fw-medium">Pondicherry</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="javascript:void(0);">
+                                            <h6 class="fs-16 fw-medium">Shimla</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="service_list">
+                <ul>
+                    <li>
+                         <!-- <a [routerLink]="routes.hotelList" class="active"> -->
+                            <a routerLink="/hotel" class="active">
+                            <i>
+                                <img src="assets/img/landing/4.png" />
+                             </i>
+                            <span>Hotel Booking</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <i>
+                                <img src="assets/img/landing/2.png" />
+                             </i>
+                            <span>Flight booking</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <i>
+                                <img src="assets/img/landing/7.png" />
+                             </i>
+                            <span>Bus Booking</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <i>
+                                <img src="assets/img/landing/3.png" />
+                             </i>
+                            <span>Cab Booking</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <!-- <i class="isax isax-airplane me-2"></i> -->
+                             <i>
+                                <img src="assets/img/landing/6.png" />
+                             </i>
+                            <span>Hotels + Flight</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <!-- <i class="isax isax-airplane me-2"></i> -->
+                             <i>
+                                <img src="assets/img/landing/1.png" />
+                             </i>
+                            <span>Holiday Package</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <i>
+                                <img src="assets/img/landing/5.png" />
+                             </i>
+                            <span>Adventure Tours</span>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="">
+                            <i>
+                                <img src="assets/img/landing/6.png" />
+                             </i>
+                            <span>Medical Tours</span>
+                        </a>
+                    </li> -->
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+<!---next modal -->
+<div class="modal fade" id="nextinfo" tabindex="-1" aria-labelledby="nextinfo" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header d-flex align-items-center justify-content-between border-0 pb-1">
+            <h5  id="exampleModalLabel" class="modal-title text-primary">When you are planing?</h5>
+          <a href="javascript:void(0);" data-bs-dismiss="modal"><i class="ti ti-x fs-16"></i></a>
+        </div>
+        <div class="modal-body">
+            <div class="card border-0 shadow-none">
+                <div class="card-body p-0">
+                    <div class="banner-form">
+                        <form class="d-lg-flex">
+                            <div class="d-flex form-info">
+                                <div class="form-item">
+                                    <label class="form-label fs-14 text-default mb-1">Check In</label>
+                                    <!-- <input
+                                        type="text"
+                                        class="form-control datetimepicker"
+                                        bsDatepicker
+                                        [bsConfig]="{ adaptivePosition: true }"
+                                        placeholder="21-10-2024"
+                                        [bsValue]="bsValue"
+                                        [bsConfig]="{ dateInputFormat: 'DD-MM-YYYY' }"
+                                        /> -->
+                                </div>
+                                <div class="form-item">
+                                    <label class="form-label fs-14 text-default mb-1">Check Out</label>
+                                    <!-- <input
+                                        type="text"
+                                        class="form-control datetimepicker"
+                                        bsDatepicker
+                                        [bsConfig]="{ adaptivePosition: true }"
+                                        placeholder="21-10-2024"
+                                        [bsValue]="bsValue"
+                                        [bsConfig]="{ dateInputFormat: 'DD-MM-YYYY' }"
+                                        /> -->
+                                </div>
+                                <div class="form-item dropdown">
+                                    <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" role="menu">
+                                        <label class="form-label fs-14 text-default mb-1">Guests</label>
+                                        <h5>4 <span class="fw-normal fs-14">Persons</span>, 2 <span class="fw-normal fs-14">Children</span></h5>
+                                    </div>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-xl">
+                                        <h5 class="mb-3">Add Guest</h5>
+                                        <div class="mb-3 border br-10 info-item pb-1">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mb-3 d-flex align-items-center justify-content-between">
+                                                        <label class="form-label text-gray-9 mb-2">Adults</label>
+                                                        <!-- <app-common-counter/> -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="mb-3 d-flex align-items-center justify-content-between">
+                                                        <label class="form-label text-gray-9 mb-2">Children </label>
+                                                        <!-- <app-common-counter/> -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="mb-3 d-flex align-items-center justify-content-between">
+                                                        <label class="form-label text-gray-9 mb-2">Infants</label>
+                                                        <!-- <app-common-counter/> -->
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-end">
+                                            <a href="javascript:void(0);" class="btn btn-light btn-sm me-2">Cancel</a>
+                                            <button type="submit" class="btn btn-primary btn-sm">Apply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item dropdown">
+                                    <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" role="menu">
+                                        <label class="form-label fs-14 text-default mb-1">Rooms</label>
+                                        <h5>2 <span class="fw-normal fs-14">Rooms</span></h5>
+                                    </div>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-xl">
+                                        <h5 class="mb-3">Add Rooms</h5>
+                                        <div class="mb-3 border br-10 info-item pb-1">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mb-3 d-flex align-items-center justify-content-between">
+                                                        <label class="form-label text-gray-9 mb-2">Rooms</label>
+                                                        <!-- <app-common-counter/> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 border br-10 info-item pb-1">
+                                            <h6 class="fs-16 fw-medium mb-2">Room Type</h6>
+                                            <div class="d-flex align-items-center flex-wrap">
+                                                <div class="form-check me-3 mb-3">
+                                                    <input class="form-check-input" type="radio" name="room" id="room1" checked>
+                                                    <label class="form-check-label" for="room1">
+                                                        Single
+                                                    </label>
+                                                </div>
+                                                <div class="form-check me-3 mb-3">
+                                                    <input class="form-check-input" type="radio" name="room" id="room2">
+                                                    <label class="form-check-label" for="room2">
+                                                        Double
+                                                    </label>
+                                                </div>
+                                                <div class="form-check me-3 mb-3">
+                                                    <input class="form-check-input" type="radio" name="room" id="room3">
+                                                    <label class="form-check-label" for="room3">
+                                                        Delux
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mb-3">
+                                                    <input class="form-check-input" type="radio" name="room" id="room4">
+                                                    <label class="form-check-label" for="room4">
+                                                        Suite
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 border br-10 info-item pb-1">
+                                            <h6 class="fs-16 fw-medium mb-2">Property Type</h6>
+                                            <div class="d-flex align-items-center flex-wrap">
+                                                <div class="form-check me-3 mb-3">
+                                                    <input class="form-check-input" type="radio" name="property" id="property1" checked>
+                                                    <label class="form-check-label" for="property1">
+                                                        Villa
+                                                    </label>
+                                                </div>
+                                                <div class="form-check me-3 mb-3">
+                                                    <input class="form-check-input" type="radio" name="property" id="property2">
+                                                    <label class="form-check-label" for="property2">
+                                                        Condo
+                                                    </label>
+                                                </div>
+                                                <div class="form-check me-3 mb-3">
+                                                    <input class="form-check-input" type="radio" name="property" id="property3">
+                                                    <label class="form-check-label" for="property3">
+                                                        Cabin
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mb-3">
+                                                    <input class="form-check-input" type="radio" name="property" id="property4">
+                                                    <label class="form-check-label" for="property4">
+                                                        Apartments
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-end">
+                                            <a href="javascript:void(0);" class="btn btn-light btn-sm me-2">Cancel</a>
+                                            <button type="submit" class="btn btn-primary btn-sm">Apply</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-item dropdown">
+                                    <div data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" role="menu">
+                                        <label class="form-label fs-14 text-default mb-1">Price per Night</label>
+                                        <input type="text" class="form-control" value="₹1000 - ₹15000">
+                                    </div>
+                                    <div class="dropdown-menu dropdown-md p-0">
+                                        <ul>
+                                            <li class="border-bottom">
+                                                <a class="dropdown-item" href="javascript:void(0);">
+                                                    <h6 class="fs-16 fw-medium">₹500 - ₹2000</h6>
+                                                    <p>Upto 65% offers</p>
+                                                </a>
+                                            </li>
+                                            <li class="border-bottom">
+                                                <a class="dropdown-item" href="javascript:void(0);">
+                                                    <h6 class="fs-16 fw-medium">Upto 65% offers</h6>
+                                                    <p>Upto 40% offers</p>
+                                                </a>
+                                            </li>
+                                            <li class="border-bottom">
+                                                <a class="dropdown-item" href="javascript:void(0);">
+                                                    <h6 class="fs-16 fw-medium">₹5000 - ₹8000</h6>
+                                                    <p>Upto 35% offers</p>
+                                                </a>
+                                            </li>
+                                            <li class="border-bottom">
+                                                <a class="dropdown-item" href="javascript:void(0);">
+                                                    <h6 class="fs-16 fw-medium">₹9000 - ₹11000</h6>
+                                                    <p>Upto 20% offers</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="javascript:void(0);">
+                                                    <h6 class="fs-16 fw-medium">₹11000 - ₹15000</h6>
+                                                    <p>Upto 10% offers</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="hotel/hotel-list"  class="btn btn-primary search-btn rounded d-flex align-items-center">Search</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>

@@ -32,9 +32,33 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/primeicons/primeicons.css",
+            
+              "./node_modules/ngx-lightbox/lightbox.css",
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
+              "node_modules/animate.css/animate.min.css",
+              "src/assets/fontawesome/css/fontawesome.min.css",
+              "node_modules/slick-carousel/slick/slick.scss",
+              "node_modules/slick-carousel/slick/slick-theme.scss",
+              "src/assets/fontawesome/css/all.min.css",
+              "src/assets/css/iconsax.css",
+              "src/assets/icons/tabler-icons/tabler-icons.css",
+              "src/assets/css/meanmenu.css",
+            
+              "node_modules/aos/dist/aos.css",
+              "src/custom-theme.scss",
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+           
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/aos/dist/aos.js",
+             "node_modules/slick-carousel/slick/slick.min.js"
+            ],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
