@@ -1,9 +1,9 @@
 import { Component, Renderer2 } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -15,6 +15,7 @@ export class HomeComponent {
     private renderer:Renderer2
   ){}
   navigation(){
+   
     //this.router.navigate([routes.index])
   }
   ngOnInit(): void {
